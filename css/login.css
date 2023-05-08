@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    z-index: -1;
+    background-color:aliceblue;
+}
+.container{
+    margin:  2% 5%;
+    height: 500px;
+    position: relative;
+
+}
+.background{
+    height: 500px;
+    background-image:url(/img/pexels-deybson-mallony-10657978.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    border-radius: 7px;
+}
+.log-in{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: stretch;
+}
+.for{
+    text-align: center;
+    line-height:20px ;
+    margin-top: 95px;
+    position: absolute;
+    top: 0;
+    left: 30rem;
+   
+}
+.for h2{
+    margin-bottom: 33px;
+    font-size: 50px;
+    color: #e74c3c;
+    font-family:cursive, fantasy, monospace;
+}
+.login-form{
+    z-index: 1;
+}
+
+p{
+    font-size: 20px;
+    font-family: Century Gothic;
+    margin-bottom: 7px;
+}
+input {
+    height: 30px;
+    width: 300px;
+
+}
+button{
+    height: 35px;
+    width: 180px;
+    border-radius: 6px;
+    font-size: 25px;
+    background-color: #e15f41;
+    border: #e15f41;
+    color: aliceblue;
+    font-family: Segoe UI;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+@media (max-width:1200px){
+    .for{
+        left: 35%;
+    }
+}
+@media (max-width:1060px){
+    .for{
+        left: 30%;
+    }
+}
+@media(max-width:555px){
+    .for{
+        left: 10%;
+    }
+}
